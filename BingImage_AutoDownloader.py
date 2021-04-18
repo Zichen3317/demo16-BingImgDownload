@@ -30,7 +30,7 @@ def GetImage():
     imgUrl = 'https://cn.bing.com' + ul
     print('imgUrl= %s' % imgUrl)
 
-    # 获取图片内容、将图片内容转换为二进制形式返回，以便上传至网盘
+    # 获取图片内容、将图片内容储存到本地，以便上传至网盘
     imgRs = requests.get(url=imgUrl)
     path = "./%s.jpg" % str_time
     with open(path, 'wb') as f:
