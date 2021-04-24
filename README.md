@@ -15,8 +15,8 @@ index.py中可以更改写入日志的路径
 ### Account.conf 文件格式
 ```
 [TeraCloud_Backup]
-url = xxx  _需要上传网盘的webdav地址，推荐使用teracloud，当然其他支持webdav的网盘也可以_ 
-user = xxx  _用户名_ 
-password = xxx  _密码（或授权码）_ 
-imageDelete = False  _上传图片至网盘后是否删除用于上传的图片，默认为False（不删除）_ 
+url = xxx  _ 需要上传网盘的webdav地址，推荐使用teracloud，当然其他支持webdav的网盘也可以 _ 
+user = xxx  _ 用户名 _ 
+password = xxx  _ 密码（或授权码）_ 
+imageDelete = False  _ 上传图片至网盘后是否删除用于上传的图片，默认为False（不删除）_ 
 ```
