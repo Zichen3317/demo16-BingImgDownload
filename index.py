@@ -14,12 +14,12 @@ config = configparser.ConfigParser()
 major_Version_Number = 0  # 主版本号
 child_Version_Number = 1  # 子版本号
 stage_Version_Number = 3  # 阶段版本号
-stage_VisionLst = ['base', 'alpha', 'beta', 'RC', 'release']
-vision_Date = '210424' + '_' + stage_VisionLst[1]  # 日期和希腊字母版本号
-vision = '%s.%s.%s.%s' % (major_Version_Number,
+stage_VersionLst = ['base', 'alpha', 'beta', 'RC', 'release']
+version_Date = '210424' + '_' + stage_VersionLst[1]  # 日期和希腊字母版本号
+version = '%s.%s.%s.%s' % (major_Version_Number,
                           child_Version_Number,
                           stage_Version_Number,
-                          vision_Date)
+                          version_Date)
 log.debug(vision, 'Main')
 print('版本:%s' % vision)
 
